@@ -1,0 +1,85 @@
+{
+  "user": [
+    {
+      "userName": "Sonu Kumar",
+      "age": "27",
+      "email": "sonu@gmail.com",
+      "phone": "9876543210",
+      "dob": "2019-12-08T18:30:00.000Z",
+      "gander": "Male",
+      "id": 12
+    },
+    {
+      "userName": "Vikash Kumar",
+      "age": "26",
+      "email": "vikashkumar@gmail.com",
+      "phone": "8976542310",
+      "dob": "2020-02-14T18:30:00.000Z",
+      "gander": "Male",
+      "id": 13
+    },
+    {
+      "userName": "Rahul Kumar",
+      "age": "24",
+      "email": "rahul@gmail.com",
+      "phone": "7849651230",
+      "dob": "2020-02-07T18:30:00.000Z",
+      "gander": "Male",
+      "id": 14
+    },
+    {
+      "userName": "Anshu",
+      "age": "24",
+      "email": "anshu@gmail.com",
+      "phone": "7895462130",
+      "dob": "2020-02-28T18:30:00.000Z",
+      "gander": "Male",
+      "id": 15
+    },
+    {
+      "userName": "Sandeep Kumar",
+      "age": "28",
+      "email": "sandeep@gmail.com",
+      "phone": "9875462130",
+      "dob": "2020-02-01T18:30:00.000Z",
+      "gander": "Male",
+      "id": 16
+    },
+    {
+      "userName": "Prateek kumar",
+      "age": "24",
+      "email": "prateek@gmail.com",
+      "phone": "7984562130",
+      "dob": "2020-02-28T18:30:00.000Z",
+      "gander": "Male",
+      "id": 17
+    },
+    {
+      "userName": "Test User 1",
+      "age": "42",
+      "email": "testuser1@gmail.com",
+      "phone": "5556665566",
+      "dob": "2020-02-25T18:30:00.000Z",
+      "gander": "Female",
+      "id": 18
+    },
+    {
+      "userName": "Test User 2",
+      "age": "36",
+      "email": "testuser2@gmail.com",
+      "phone": "6587492130",
+      "dob": "2020-02-24T18:30:00.000Z",
+      "gander": "Other",
+      "id": 19
+    },
+    {
+      "userName": "Test",
+      "age": "26",
+      "email": "testuser1@gmail.com",
+      "phone": "5556665566",
+      "dob": "2020-02-28T18:30:00.000Z",
+      "gander": "Female",
+      "id": 20
+    }
+  ]
+}

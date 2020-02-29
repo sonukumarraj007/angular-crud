@@ -1,0 +1,79 @@
+<br>
+<div class="container-fluid">
+    <form [formGroup]="updateUserForm">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <p-card>
+                    <div class="row">
+                        <div class="col-md-12 ui-fluid">
+                            <div class="form-group">
+                                <label><strong>Full Name</strong></label>
+                                <input type="text" pInputText name="userName" formControlName="userName" required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 ui-fluid">
+                            <div class="form-group">
+                                <label><strong>Email Id</strong></label>
+                                <input type="text" pInputText name="email" formControlName="email" required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 ui-fluid">
+                            <div class="form-group">
+                                <label><strong>Age</strong></label>
+                                <input type="text" pInputText name="age" formControlName="age" required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 ui-fluid">
+                            <div class="form-group">
+                                <label><strong>Phone no.</strong></label>
+                                <input type="text" pInputText name="phone" formControlName="phone" required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 ui-fluid">
+                            <div class="form-group">
+                                <label><strong>D.O.B</strong></label>
+                                <p-calendar formControlName="dob" name="dob" [showIcon]="true"></p-calendar>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 ui-fluid">
+                            <div class="form-group">
+                                <label class="radio-inline"><strong>Gender</strong></label>
+                                <p-radioButton name="gander" value="Male" label="Male" formControlName="gander"
+                                    [style]="{'margin-left':'0.5em'}">
+                                </p-radioButton>
+                                <p-radioButton name="gander" value="Female" label="Female" formControlName="gander"
+                                    [style]="{'margin-left':'0.5em'}">
+                                </p-radioButton>
+                                <p-radioButton name="gander" value="Other" label="Other" formControlName="gander"
+                                    [style]="{'margin-left':'0.5em'}">
+                                </p-radioButton>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right;">
+                            <button pButton label="Update" class="ui-button-raised ui-button-primary"
+                                (click)="updateUser();" [disabled]="!updateUserForm.valid"></button>
+                        </div>
+                    </div>
+                </p-card>
+            </div>
+        </div>
+    </form>
+</div>
