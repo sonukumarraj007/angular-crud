@@ -1,3 +1,4 @@
+import { FormArrayComponent } from './form-array/form-array.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CreateUserComponent } from './create-user/create-user.component';
@@ -11,7 +12,8 @@ const routes: Routes = [
   { path: 'create-user', component: CreateUserComponent },
   { path: 'user-list', component: UserListComponent },
   { path: 'user-edit/:id', component: UserEditComponent },
-  { path: 'user-details/:id', component: UserDetailsComponent }
+  { path: 'user-details/:id', component: UserDetailsComponent },
+  { path: 'form-array', component: FormArrayComponent }
 ];
 
 @NgModule({

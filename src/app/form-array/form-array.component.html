@@ -1,0 +1,29 @@
+<div>
+    <ul *ngFor="let user of users">
+        <li>
+            {{user.userName}}
+        </li>
+    </ul>
+</div>
+
+
+<div class="container-fluid">
+    <form (ngSubmit)="onSubmit()">
+        <div class="row" *ngFor='let obj of userData'>
+            <div class="col-md-2">
+                <label for="name">Name </label>
+                <input type="text" id="name" name="name" [(ngModel)]="user.name">
+            </div>
+            <div class="col-md-2">
+                <label for="name">Email </label>
+                <input type="text" id="email" name="email" [(ngModel)]="user.email">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>

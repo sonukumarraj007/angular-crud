@@ -22,6 +22,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 // HttpClient module for RESTful API
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpErrorInterceptor } from 'src/http-error.interceptor';
+import { FormArrayComponent } from './form-array/form-array.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { HttpErrorInterceptor } from 'src/http-error.interceptor';
     CreateUserComponent,
     UserListComponent,
     UserEditComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    FormArrayComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,8 @@ import { HttpErrorInterceptor } from 'src/http-error.interceptor';
     ButtonModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    RadioButtonModule
+    RadioButtonModule,
+    NgxPaginationModule
   ],
   providers: [
     {
